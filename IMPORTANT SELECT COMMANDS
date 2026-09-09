@@ -1,0 +1,41 @@
+IMPORTANT SELECT COMMANDS
+
+SELECT* FROM STUDENTS;______select all columns.....
+
+SELECT name,age FROM STUDENTS;_______select specific columns.....
+
+SELECT*FROM students WHERE age>21;_____where-filter records.......
+
+SELECT*FROM students                           |
+WHERE course = 'python'AND mark > 80;          |
+                                               |_______AND/OR.......
+SELECT*FROM students                           |
+WHERE course = 'python'OR course ='Django';    |
+
+SELECT*FROM students ORDER BY markASC;________ORDER BY-sort........(ASC-LOW TO HIGH)....(DESC-HIGH TO LOW).......
+
+SELECT DISTINCT course FROM students;.........DISTINCT-remove duplicates.....
+
+SELECT*FROM students LIMI 2;..........LIMIT-get limited rows......
+
+SELECT*FROM students WHERE name LIKE 'A%';...........LIKE-search pattern.......
+
+SELECT*FROM students
+WHERE course in ('python','Django');......IN-multiple values....
+
+SELECT*FROM students
+WHERE mark BETWEEN 70 AND 90;.............BETWEEN-range..........
+
+SELECT name AS students_name, mark AS score FROM students;........AS-column alias........
+
+SELECT COUNT(*)FROM students;             |
+SELECT AVG(mark)FROM students;            |
+SELECT MAX(mark)FROM students;            |_________Aggregate functions............
+SELECT MIN(mark)FROM students;            |
+SELECT SUM(mark)FROM students;            |
+
+
+
+
+
+

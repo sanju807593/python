@@ -1,0 +1,52 @@
+A tuple is an ordered, immutable collection of elements in Python.
+
+Characteristics
+
+Ordered (elements have positions/indexes)
+Immutable (cannot be modified after creation)
+Allows duplicate values
+Can store different data types
+
+t=()
+Creating a Tuple
+t = (1, 2, 3,'hello')
+
+Single-element tuple:
+
+t = (5,)   # comma is required  t=() t=(10,)
+
+Without parentheses:
+
+t = 1, 2, 3
+
+Example:
+
+t = (10, "Hello", 3.14, 10)
+Accessing Elements
+t = (10, 20, 30)
+
+print(t[0])    # 10
+print(t[-1])   # 30
+Tuple Operations
+a = (1, 2)
+b = (3, 4)
+
+print(a + b)    # (1, 2, 3, 4)
+print(a * 2)    # (1, 2, 1, 2)
+Common Methods
+t = (1, 2, 2, 3)
+
+t.count(2)    # 2
+t.index(3)    # 3
+t.copy()
+t.reverse()
+
+
+# to add new item to tuple:-
+
+# firt convert into list and add item and convert into tuple and print
+t=(1,2,3)
+l=list(t)
+l.append(4)
+t=tuple(l)
+print(t)

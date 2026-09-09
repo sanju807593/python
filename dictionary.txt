@@ -1,0 +1,41 @@
+
+while True:
+
+    name = input("Enter your name (or 'exit' to quit): ")
+
+    if name == "exit":
+        break
+
+    print("Hello,", name)
+
+print("Program ended")
+
+dictionary:
+
+not indexed
+no duplicate keys allowed
+ordered
+mutable
+
+d={} ---->empty dictionary
+
+d={'name':'mallu','class':2,'age':30}
+
+to add into a dic:
+
+d['name']='sonu'
+d['class']=10
+
+print(d['name'])  ----->to  print value in name keys
+print(d.get('name')) -----. print value of name key
+
+deletion:
+
+d.pop('age') ----->remove age key and it's value
+d.popitem()  ------> remove last key value pair
+d.items() ----. it shows all keys and values
+d.keys() ------>  display all keys
+d.values() -----> display all values
+d.clear()  -----> to clear
+d.copy()  ------> to copy
+d.update({'name':'newvalue'})  -----> to update a key with a new value

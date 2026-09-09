@@ -1,0 +1,55 @@
+set:-
+
+Unordered (no indexing)
+Mutable (can add/remove elements)
+Does not allow duplicate values
+Stores unique items only
+
+s=set()  
+s={'a',1,2,3} 
+
+Methods:-
+
+s.add(1)
+s.update({2,3,4,5})
+
+we can add tuple as an element in a set but cant add list or set as an element in set
+
+deletion:-
+
+s.clear()  it clear all the set
+s.pop()  it delete any element in a set because it not have any index and ordered
+s.remove(3)  it delete the value in the paranthasis.if there is no value then it raise an error
+s.discard(2) it delete the value.if not the value occure then will not raise an error
+
+common methods:-
+
+print(s.difference(s1))   s-s1
+
+print(s.intersection(s1))  common factors
+
+print(s.isdisjoint(s1))  if both sets have common factors then it is joint if not it is disjoint
+print(s.issuperset(s1))  if all elements of other set is present in a set and it have more elements than that then is superset
+print(s.issubset(s1))
+print(s.union(s1))
+s.symmetric_difference(s1)
+s.difference_update(s1)
+s.intersection_update(s1)
+s.symmetric_difference_update(s1)
+
+
+questions:
+
+create a set with 5 numbers and print it
+add an elemnt to a set
+remove an element from set
+check whether  an element exists in a set
+find the length of a set
+clear all elements from a set
+find the union of two sets
+find the intersection of two sets
+find the difference between two sets
+check whether a set is sub set of other
+check whether two sets are disjoint
+count the number of unique words in a sentence
+remove duplicate from a list while priserving unique values

@@ -1,0 +1,80 @@
+what is list in python:
+list is a heterogenous,induxed,mutable datatype which store multiple values or elements in a single variable
+eg  l=[1,2,3,4,4,'rygh']
+l=[] 
+l.append(25)
+print(l)
+
+l.append([26,27])
+print(l)
+print(l[6][1])
+
+l.extend([30,40,50])
+print(l)
+
+l.insert(2,28)
+print(l)
+
+# l.clear
+# print()   it will clear all list
+
+l.pop(4)
+print(l)
+
+# l.pop()
+# print(l)  here remove last letter
+
+l.remove(25)
+print(l)
+
+# l.remove(5)
+# print(l)  it shows error when we try to remove lettere or integer which not included in list.
+
+
+l=[12,25,25,26,27,28]
+c=l.count(25)
+print(c)
+
+print(l.index(25))
+print(l.index(25,1))
+# because here 1st index numbered value also 25
+print(l.index(25,2))
+l=[1,2,26,25,37,28]
+
+l.sort()
+print(l)
+
+l.reverse()
+print(l)
+
+print(l.copy())
+
+# here l.copy will copy the l which is accessed just above.eg before copy instruction me execute l.reverse instruction
+# so copied l.reverse output
+
+# for i in l:
+#  print(i)
+
+# print names as list:-
+
+l=[]
+n=int(input("enter number of students:"))
+for i in range(n):
+    name=input("enter the name:")
+    
+    l.append(name)
+    print(l)
+
+    create a list of 5 numbers and print it
+    print the first element of list
+    print the last element of list
+    find the length of list
+    add the element in the end of list
+    print the smallest number of a list
+    print the reverse of a list
+    store student mark in a list and find the highest mark
+    find howmany times each element occur in a list
+    remove an element from list
+    add an element in 2nd index
+    average of a list
+    seperate even and odd numbers into two different lists

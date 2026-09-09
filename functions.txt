@@ -1,0 +1,72 @@
+function:
+
+in python function is a block of code which can 
+reuse and will trigger if it called
+
+syntax:
+
+def function_name(parameters):
+    # function body
+    statements
+    return value  # optional
+
+
+function_name(arguments)
+
+parameters:
+A variable listed in the function definition.
+Acts as a placeholder for data.
+Defined inside the function declaration.
+
+
+arguments:
+A value passed to the function when it is called.
+The actual data supplied to the function.
+Used in the function call.
+
+example:-
+
+def greet(name):   # 'name' is a parameter
+    print("Hello,", name)
+
+greet("Alice")     # "Alice" is an argument
+
+example:-
+
+def add(a,b):     # a and b are parameters
+    return a + b
+
+result = add(5, 3)  # 5 and 3 are arguments
+print(result)
+return gives a value back to the caller so it can be stored, used in 
+calculations, or passed to another function.
+
+local variable:
+
+A local variable is created inside a function 
+and can only be used inside that function.
+def my_function():
+    x = 10   # local variable
+    print(x)
+
+my_function()
+
+global variable:
+
+A global variable is defined outside all 
+functions and can be used anywhere in the program.
+
+x = 20   # global variable
+
+def my_function():
+    print(x)
+
+my_function()
+print(x)
+
+why using functions:
+
+Reuse code instead of writing it multiple times.
+Make programs easier to understand.
+Break complex problems into smaller parts.
+Simplify testing and maintenance.

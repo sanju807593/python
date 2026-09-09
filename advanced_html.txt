@@ -1,0 +1,169 @@
+list:
+3 types of list sare there
+ordered list
+unordered list
+discription list
+
+
+ordered list:
+<ol>
+<li>red</li>
+<li>yellow</li>
+</ol>
+
+<ol type='a'>
+<li>red</li>
+<li>yellow</li>
+</ol>
+
+<ol type='A'>
+<li>red</li>
+<li>yellow</li>
+</ol>
+
+<ol type='i'>
+<li>red</li>
+<li>yellow</li>
+</ol>
+
+<ol type='I'>
+<li>red</li>
+<li>yellow</li>
+</ol>
+
+
+
+
+unordered list:
+
+<ul>
+<li>black</li>
+<li>grey</li>
+</ul>
+
+<ul type="square">
+<li>black</li>
+<li>grey</li>
+</ul>
+
+<ul type="disc">
+<li>black</li>
+<li>grey</li>
+</ul>
+
+<ul type="circle">
+<li>black</li>
+<li>grey</li>
+</ul>
+
+<ul type="none">
+<li>black</li>
+<li>grey</li>
+</ul>
+
+discription list:
+
+<dl>
+
+<dt> school</dt>  it is discription term
+<dd>---------------------</dd> discription defenition
+</dl>
+
+
+tables:
+
+
+<table>
+    <tr> table row
+        <td></td> coloumn
+        <td></td>
+        <td></td>
+    </tr>
+      <tr> table row
+        <td></td> coloumn
+        <td></td>
+        <td></td>
+    </tr>
+      <tr> table row
+        <td></td> coloumn
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+colspan - to join 2 columns
+rawspan - to join rows
+cellpadding - to adjust space inside a cell
+cellspacing - to adjust space between 2 cells
+
+<table>
+    <tr>
+        <td colspan="2">school</td>
+    </tr>
+    <tr>
+        <td>students</td>
+        <td>count</td>
+    </tr>
+    <tr >
+        <td rowspan="2">male</td>
+        <td>below 18:2</td>
+    </tr>
+    <tr>
+        <td>abouve 18:3</td>
+    </tr>
+    <tr>
+        <td  rowspan="2">female</td>
+        <td>below 18:4</td>
+    </tr>
+    <tr>
+        <td>abouve 18:7</td>
+    </tr>
+</table>
+
+border:
+
+<table border="5">
+    <tr>
+        <td>hello</td>
+        <td>there</td>
+        <td>section</td>
+    </tr>
+     <tr>
+        <td>hello</td>
+        <td>there</td>
+        <td>section</td>
+    </tr>
+     <tr>
+        <td>hello</td>
+        <td>there</td>
+        <td>section</td>
+    </tr>
+</table>
+
+forms:
+
+<form action="" method="" target="" enctype=""></form>
+
+<input type="text" name="" id="" maxlength="" value="" placeholder=""  required>
+
+input type - determines which type of data have to be added
+maxlength - it determines howmuch characters have to be added
+placeholder - the text given it work as placeholder
+required - when given required then this field can't be empty
+value - to give give any data then it auto fill into that field
+
+input types:
+
+text
+password
+submit
+reset
+email
+tel
+date
+checkbox
+radiobutton (radio)
+file
+
+<textarea>
+select bar

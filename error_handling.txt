@@ -1,0 +1,39 @@
+Error handling:-
+
+Error handling is used to prevent a program from crashing when 
+an error occurs. Python uses try, except, else, and finally blocks 
+for this purpose.
+
+syntax:- 
+
+try:
+    # code that may cause an error
+    pass
+except:
+    # code to handle the error
+    pass
+
+example:-
+try:
+    result = 10 / 0
+    print(result)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+else:
+    print("mission completed")
+finally:
+    print('code stopped')
+
+    
+errors in python:-
+
+name error
+indendation error
+type error
+atribute error
+syntax error
+value error
+index error
+zero division error
+file not found error
+key error

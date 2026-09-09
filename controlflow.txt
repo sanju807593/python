@@ -1,0 +1,38 @@
+
+if 
+syntax:-
+
+if(condition):
+    statement
+
+if-else:-
+
+if(condition):
+    statement
+else:
+    statement
+
+nested if:-
+if(condition):
+    statement
+    if(condition):
+        statement
+    else:
+        statement
+else:
+    if(condition):
+        statement
+    else:
+        statement
+
+if-elif-else:-
+
+if(condition):
+    statement
+elif(condition):
+    statement
+    ........
+    ........
+    ........
+else:
+    statement

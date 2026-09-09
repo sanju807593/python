@@ -1,0 +1,76 @@
+what is html
+
+HTML stands for HyperText Markup Language. It is the standard language 
+used to create and structure web pages.
+
+importance of html:-
+
+Structures content: Defines headings, paragraphs, images, forms, tables, and more.
+Creates web pages: Every website uses HTML as its foundation.
+Works in all browsers: Browsers like Chrome, Firefox, Safari, and Edge can read HTML.
+Supports links: HTML makes it possible to connect pages through hyperlinks.
+Helps accessibility: Proper HTML helps screen readers and assistive technologies understand content.
+Improves search engines: Search engines use HTML structure to understand and index web pages.
+
+basic structure of html:-
+<!DOCTYPE html>                      # Tells the browser that this is an HTML5 document.
+<html>                               # The root element that contains the entire webpage.
+<head>                               # Contains information about the page that is not displayed directly on the webpage.
+    <title>My Web Page</title>       # page title shown in the browser tab
+    <meta charset="UTF-8">           # Specifies the character encoding for the document.
+    <link rel=""  href="">
+</head>                              # closing head tag
+<body>                               #Contains all the visible content shown to users.
+    <h1>Welcome</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>
+
+what is tag:-
+
+Tags are the keywords enclosed in angle brackets (< >). eg :- <h1></h1>  <a></a>
+
+self closing tags also there eg:- <hr> <br> <img src="" alt="">
+
+elements:-
+
+An HTML element consists of
+
+Opening tag
+Content
+Closing tag   eg of an element: <h1>welcome to the world of html</h1>
+
+atribute:
+Tags can contain attributes that provide extra information about the tag eg: <img src="" alt="" height="" width="">
+
+headings:
+
+html have 6 types of headings there .those are h1 -h6 eg= <h1></h1> <h2></h2> ... <h6></h6>
+
+paragraphs:
+we use <p></p> tag to add paragraphs in html page
+Each <p> element starts on a new line and browsers automatically add some space before and after paragraphs.
+
+
+line break:
+
+To force a new line inside a paragraph, use the <br> tag.
+
+comments:
+for comments we use 'shift+/' if there is multiple line to comment then select lines and shift+/
+if we comment line then that line will not run in html
+
+
+
+    <!-- Website Header -->
+    <h1>My Website</h1>
+
+    <!-- Main Content -->
+    <p>Welcome to my website.</p>
+
+image:
+
+to display images in html page we use <img src="" alt="" height="" width=""> tag. 
+ in src=" " we have to give the path of the image
+ in alt  we give text then if can't load the image then the text in alt will show.alt means alternate
+to display an image we have to give height and width .we use measure in pixels commonly

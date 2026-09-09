@@ -1,0 +1,116 @@
+
+
+
+
+
+
+what is css:
+
+CSS (Cascading Style Sheets) is a language used to style and design HTML web pages.
+
+HTML creates the structure of a webpage, while CSS controls how it looks.
+example:
+HTML = Skeleton (structure)
+CSS = Clothes and appearance (design)
+JavaScript = Brain and behavior (functionality)
+
+types of css:
+
+1.inline css
+2.internal css
+3.external css
+
+
+inline css:
+
+Inline CSS is used to apply styles directly to an HTML element using the style attribute.
+
+syntax:
+<tag style="property: value;">
+    Content
+</tag>
+
+multiple value:
+
+<h1 style="color: red; text-align: center; background-color: yellow;">
+    Welcome
+</h1>
+
+Advantages:-
+Easy for applying a style to a single element.
+Useful for quick testing.
+
+
+Disadvantages:-
+Makes HTML harder to read.
+Difficult to maintain for large websites.
+Repeats code if the same style is used on many elements.
+
+Priority
+Inline CSS has higher priority than Internal and External CSS.
+
+Internal CSS:-
+
+Internal CSS is written inside the <style> tag within the <head> section of an HTML document.
+It is used to apply styles to a single webpage.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: green;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome</h1>
+    <p>Hello World</p>
+
+</body>
+</html>
+
+
+How It Works:-
+CSS is placed inside the <style> tag.
+The styles apply to all matching elements on that page.
+
+Advantages:-
+No need for a separate CSS file.
+Easier to manage than Inline CSS.
+Useful for single-page websites.
+
+Disadvantages:-
+Styles cannot be reused across multiple pages.
+Makes the HTML file larger.
+
+pririty of css= inline css >internal css >external css
+
+
+External CSS
+External CSS means writing CSS in a separate .css file and linking it to an HTML file.
+
+step to craete and link an css file to a html file:
+
+1.create a css file which have extension ".css"
+2. to link css file into html place a link tag in head tag of html
+eg:  <link rel="stylesheet" href="style.css"> in href enter your css file with it's path
+
+
+Advantages:-
+
+Keeps HTML clean and readable
+CSS can be reused across multiple pages
+Easier maintenance
+Faster website loading due to browser caching
+
+Disadvantages:-
+
+Requires an extra file
+If the CSS file is missing or linked incorrectly, styles won't load
