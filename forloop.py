@@ -140,7 +140,10 @@
 
 
 
-
+for i in range(7):
+    for u in range(5):
+        print('*',end="    ")
+    print()
 
 
 

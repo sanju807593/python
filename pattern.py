@@ -54,4 +54,18 @@ class student:
 s=student()
 s.introduce()
 
-    
+
+class student:
+    def introduce(self):
+        print("Hello I am a student")
+s=student()
+s.introduce()
+
+
+
+class student:
+    def introduce(self):
+        print("Hello friends")
+s=student()
+s.introduce()
+
